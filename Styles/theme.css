@@ -2542,7 +2542,7 @@ section.section-custom-map-2 {
         display: block;
         position: absolute;
         left: 10%;
-        top: 35px;
+        top: 0px;
     }
 
     .home-concept .cloud {
@@ -2551,8 +2551,8 @@ section.section-custom-map-2 {
         height: 56px;
         display: block;
         position: absolute;
-        left: 57%;
-        top: 60px;
+        left: 80%;
+        top: 0px;
     }
 
 /* Responsive */

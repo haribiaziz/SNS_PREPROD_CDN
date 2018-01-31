@@ -1,0 +1,413 @@
+﻿
+.testimonial-quote {
+    color: #000;
+    display: block;
+    font-family: "Playfair Display",serif;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.4;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.testimonial-author {
+    color: #ffbd2f;
+    display: block;
+    font-weight: 700;
+    text-align: center;
+}
+
+.testimonial img {
+    height: 130px !important;
+    width: 130px !important;
+    border-radius: 50% !important;
+    vertical-align: middle !important;
+    /*margin-left:40%;*/
+}
+
+.plan .mCSB_scrollTools {
+    right: -6px !important;
+}
+
+    .plan .mCSB_scrollTools .mCSB_draggerRail {
+        width: 5px !important;
+    }
+
+.mainBody {
+    margin-top: 51px !important;
+}
+
+@media only screen and (max-width: 479px) {
+
+    .mainBody {
+        margin-top: 20px !important;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+
+    .mainBody {
+        margin-top: 22px !important;
+    }
+}
+
+@media only screen and (max-width : 960px) {
+
+    .mainBody {
+        margin-top: 120px !important;
+    }
+}
+
+@media only screen and (max-width : 800px) {
+
+
+    .mainBody {
+        margin-top: 90px !important;
+    }
+}
+
+@media only screen and (max-width : 1024px) {
+    .mainBody {
+        margin-top: 75px !important;
+    }
+}
+
+@media only screen and (min-width : 1000px) {
+    #sectionSun {
+        margin: 10px 0px -200px !important;
+    }
+
+    .imgSun {
+        margin-top: -50px;
+        margin-bottom: -60px;
+    }
+}
+
+@media only screen and (max-width : 1280px) {
+    .mainBody {
+        margin-top: 88px !important;
+    }
+}
+
+#test {
+    animation: Test 3s infinite alternate;
+}
+
+p .word-rotate {
+    max-height: 26px !important;
+    line-height: 26px !important;
+    margin-bottom: -6px;
+}
+
+@keyframes Test {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+}
+
+.respo {
+    display: none;
+}
+
+.RespoLabel {
+    display: none;
+}
+
+.innerImageText .mainImageTitle h6 {
+    display: none;
+}
+
+.innerImageText {
+    position: absolute;
+    top: 0;
+    left: 53%;
+    width: 520px;
+    height: 100%;
+    text-align: center;
+}
+
+.innerImageText2 {
+    position: absolute;
+    top: 0;
+    left: 20%;
+    width: 520px;
+    height: 100%;
+    text-align: center;
+}
+
+.mainImageSpaceOne {
+    height: 12.8%;
+    display: block;
+}
+
+.mainImageTitle {
+    height: 15%;
+    text-transform: uppercase;
+}
+
+mainImageSpaceTwo {
+    height: 17%;
+    display: block;
+}
+
+.innerImageText .mainImageButton {
+    margin-top: 3%;
+}
+
+.innerImageText .mainImageLine {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -40px;
+}
+
+.marginS {
+    margin-left: 40px !important;
+    margin-top: -40px;
+}
+
+.mainImageButton button.btOffre:hover {
+    background: #ed9c28;
+}
+
+@media only screen and (min-width : 1224px) {
+    .marginS {
+        margin-left: 15px !important;
+        margin-top: -30px !important;
+    }
+}
+
+@media only screen and (min-width : 1824px) {
+
+    .marginS {
+        margin-left: 15px !important;
+        margin-top: -30px !important;
+    }
+}
+
+@media only screen and (max-width: 1600px) {
+    .innerImageText .mainImageTitle h6 {
+        display: none;
+    }
+
+    .innerImageText {
+        left: 50%;
+        width: 480px;
+    }
+
+    .innerImageText2 {
+        left: 20%;
+        width: 100%;
+    }
+
+    .mainImageSpaceOne {
+        height: 11%;
+    }
+
+    .mainImageTitle {
+        height: 10%;
+        top: -26px;
+        margin-left: 15px;
+    }
+
+    .innerImageText .mainImageLine {
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .innerImageText .mainImageButton {
+        margin-top: -5% !important;
+    }
+
+    .marginS {
+        margin-left: 15px !important;
+        margin-top: -30px !important;
+    }
+
+    .innerImageText .mainImageTitle h6 {
+        display: none;
+    }
+
+    .innerImageText {
+        left: 50%;
+        width: 440px;
+    }
+
+        .innerImageText .mainImageLine {
+            font-size: 14px;
+            margin-top: -10px;
+            margin-left: -30px;
+        }
+}
+
+@media only screen and (max-width: 860px) {
+    .marginS {
+        margin-left: 20px !important;
+        margin-top: -25px !important;
+    }
+
+    .innerImageText .mainImageTitle h6 {
+        display: none;
+    }
+
+    .innerImageText {
+        left: 48%;
+        width: 50%;
+    }
+
+        .innerImageText .mainImageTitle h2 {
+            font-size: 20px;
+            line-height: 32px;
+        }
+
+
+    innerImageText .mainImageLine {
+        height: 14%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .marginS {
+        margin-left: 15px !important;
+        margin-top: -40px !important;
+    }
+
+    .labelStyle {
+        font-size: 10px;
+    }
+
+    .innerImageText .mainImageTitle h6 {
+        display: none;
+    }
+
+    .mainImageTitle {
+        height: 7% !important;
+    }
+
+    .innerImageText .mainImageTitle h2 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    hr {
+        height: 0px;
+    }
+
+    .innerImageText .mainImageLine {
+        height: 35%;
+    }
+}
+
+@media only screen and (max-width : 960px) {
+    .stylelink {
+        background-position: 0 -144px !important;
+        width: 47px !important;
+        height: 96px !important;
+        margin-left: 50% !important;
+        top: 10px !important;
+    }
+
+    .stylerespDiv {
+        height: auto !important;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    section.section {
+        margin-top: 25px !important;
+    }
+
+    .marginS {
+        margin-left: -20px !important;
+        margin-top: -50px !important;
+    }
+
+    .mainImageTitle {
+        margin-top: -15px;
+        margin-left: -20px;
+    }
+
+    .innerImageText .mainImageTitle h2 {
+        display: none;
+    }
+
+    .innerImageText .mainImageTitle h6 {
+        display: block;
+    }
+
+    .innerImageText .mainImageLine {
+        display: none;
+    }
+
+
+
+    .innerImageText .mainImageLine {
+        height: 35%;
+    }
+
+    .respo {
+        display: inline;
+    }
+
+    .labelStyle {
+        display: none !important;
+    }
+
+    .RespoLabel {
+        font-size: 10px !important;
+        display: block !important;
+    }
+
+    .text-center {
+        font-size: 2.2em !important;
+        line-height: 30px !important;
+    }
+
+    .sun {
+        top: 50px !important;
+    }
+}
+
+
+.image img {
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -o-transition: all 1s ease; /* IE 9 */
+    -ms-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+}
+
+.image:hover img {
+    -webkit-transform: scale(1.25); /* Safari and Chrome */
+    -moz-transform: scale(1.25); /* Firefox */
+    -ms-transform: scale(1.25); /* IE 9 */
+    -o-transform: scale(1.25); /* Opera */
+    transform: scale(1.25);
+}
+
+.imageC:hover img {
+    -webkit-transform: scale(1.1); /* Safari and Chrome */
+    -moz-transform: scale(1.1); /* Firefox */
+    -ms-transform: scale(1.1); /* IE 9 */
+    -o-transform: scale(1.1); /* Opera */
+    transform: scale(1.1);
+}
+
+.home-intro {
+    margin-bottom: 0px;
+}
