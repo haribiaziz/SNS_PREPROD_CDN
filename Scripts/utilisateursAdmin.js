@@ -175,10 +175,7 @@ function onSuccessSaveArticlesUserAdmin(data) {
 function onSuccessAbonnement() {
     $("#modalAbonnement").modal("show");
 }
-//Commandes
-function onSuccessAffecterCommande() {
-    $("#modalCommandes").modal("show");
-}
+
 function onSuccessSaveAbonnementUserAdmin(data) {
     if (data.etat == "ok") {
         $("#modalAbonnement").modal("hide");

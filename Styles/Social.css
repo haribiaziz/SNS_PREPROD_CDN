@@ -644,8 +644,8 @@ a.img {display: block}
 .timeline-icon {
     color: #737881;
     display: block;
-    width: 45px;
-    height: 45px;
+    width: 40px;
+    height: 40px;
     -webkit-background-clip: padding-box;
     -moz-background-clip: padding;
     background-clip: padding-box;
@@ -654,6 +654,7 @@ a.img {display: block}
     line-height: 40px;
     font-size: 15px;
     float: left;
+    background-color:#999;
 }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.bg-primary {
@@ -745,11 +746,14 @@ a.img {display: block}
 .timeline-answer {
 	margin-left: 60px;
 	margin-top: 20px;
-	margin-right: 0;
 }
 
 .timeline-answer .timeline-icon {
-	width: 40px !important; height: 40px !important
+	width: 35px !important; 
+    height: 35px !important;
+    line-height: 1 !important;
+    margin-top: 12px !important;
+    margin-left: 10px !important;
 }
 
 .timeline-answer:before {
@@ -758,6 +762,7 @@ a.img {display: block}
 
 .timeline-answer .timeline-label {
 	margin-left: 60px !important;
+	margin-right: 60px !important;
 }
 
 .timeline-answer .timeline-label:after {
@@ -1401,6 +1406,7 @@ textarea.wall_comment {
 	.timeline-icon {
 		width: 40px; 
 		height: 40px;
+
 	}
 	
 	.timeline-label {
@@ -1408,7 +1414,7 @@ textarea.wall_comment {
 	}
 	
 	.timeline-answer {
-		margin-left: -25px;
+		margin-left: -10px;
 	}
 	
 	.mes_datetime {

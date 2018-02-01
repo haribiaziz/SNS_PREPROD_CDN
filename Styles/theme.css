@@ -2557,6 +2557,35 @@ section.section-custom-map-2 {
 
 /* Responsive */
 @media (max-width: 991px) {
+      .home-concept .project-image {
+        background: transparent url(../ImagesStyle/home-concept-item.png) no-repeat 100% 0;
+        width: 350px;
+        margin: 15px 0 0 -30px;
+        padding-bottom: 45px;
+        position: relative;
+        z-index: 1;
+           display: none;
+    }
+
+    .home-concept .sun {
+        background: transparent url(../ImagesStyle/home-concept-icons.png) no-repeat 0 0;
+        width: 60px;
+        height: 56px;
+         display: none;
+        position: absolute;
+        left: 10%;
+        top: 0px;
+    }
+
+    .home-concept .cloud {
+        background: transparent url(../ImagesStyle/home-concept-icons.png) no-repeat 100% 0;
+        width: 116px;
+        height: 56px;
+        display: none;
+        position: absolute;
+        left: 80%;
+        top: 0px;
+    }
     .home-concept {
         background: none;
     }
@@ -2572,6 +2601,7 @@ section.section-custom-map-2 {
 }
 
 @media (max-width: 479px) {
+    
 
     .home-concept .project-image {
         background-position: 0 0;
@@ -5197,7 +5227,7 @@ html.boxed .main {
 @media(max-width: 650px) {
      .logotop {
         font-family: cursive !important;
-        margin-top: -25px !important;
+       margin-top: -13px !important;
         margin-left: 8px !important;
           margin-bottom: -43px ;
     }
