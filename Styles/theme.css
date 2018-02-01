@@ -2506,7 +2506,7 @@ section.section-custom-map-2 {
     .home-concept .process-image {
         background: transparent url(../ImagesStyle/home-concept-item.png) no-repeat 0 0;
         width: 160px;
-        margin: 135px auto 0 auto;
+        margin: 130px auto 0 auto;
         padding-bottom: 50px;
         position: relative;
         z-index: 1;
@@ -2596,7 +2596,7 @@ section.section-custom-map-2 {
 
         .home-concept .process-image {
             margin-top: 0;
-            padding-bottom: 25px;
+            padding-bottom: 3px !important;
         }
 }
 
