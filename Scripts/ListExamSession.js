@@ -233,7 +233,13 @@ function onSuccessEditSession(data) {
 
 function RedirectTolistquizs() {
     var idTraining = $("#idFormationCalendar").val();
-    location.href = "/listquizs/" + $.base64.encode(idTraining);
+    var passerquiz = true;
+    location.href = "/listquizs/" + $.base64.encode(idTraining) + "/" + passerquiz;
+}
+function RedirectTononpasquizs() {
+    var idTraining = $("#idFormationCalendar").val();
+    var passerquiz = false;
+    location.href = "/listquizs/" + $.base64.encode(idTraining) + "/" + passerquiz;
 }
 $("#leftSearch").keyup(function (event) {    
     var valsearch = $("#leftSearch").val();  

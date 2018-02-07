@@ -1,0 +1,457 @@
+﻿#test {
+    animation: Test 3s infinite alternate;
+}
+ .process-image img {
+            border-radius: 150px;
+            height: auto;
+            margin: 7px 8px;
+            max-height: 145px;
+            max-width: 145px;
+            width: auto;
+        }
+
+
+        .owl-theme .owl-nav.disabled + .owl-dots {
+            margin-top: 2px;
+        }
+
+        .arrowbl {
+            background: transparent url(../ImagesStyle/arrows1.png) no-repeat 0 0;
+            width: 47px;
+            height: 120px;
+            display: inline-block;
+            position: relative;
+        }
+
+        .hrt {
+            background-position: -353px 0px;
+            width: 120px;
+            height: 47px;
+        }
+
+       
+        .btn-warning {
+            margin-left: 20px;
+        }
+.marginC {
+    margin-left: 100px !important;
+}
+
+.marginGroupG {
+    margin-top: 40px;
+}
+
+.marginGroupN {
+    margin-top: 60px;
+}
+
+.marginContainer {
+    margin-top: 20px;
+    margin-bottom: -30px;
+}
+
+.marginGroupT {
+    margin-top: -50px;
+}
+
+.marginContainerT {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.marginGroupGT {
+    margin-top: 0px;
+}
+
+.arrow {
+    background: transparent url(../ImagesStyle/arrows.png) no-repeat 0 0;
+    width: 47px;
+    height: 120px;
+    display: inline-block;
+    position: relative;
+}
+
+    .arrow.hrb {
+        background-position: -353px -101px;
+        width: 120px;
+        height: 47px;
+    }
+
+@keyframes Test {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.respInput {
+    display: none;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .marginC {
+        margin-left: 0px !important;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .call-to-action .call-to-action-btn {
+        margin-top0;
+        padding: 20px;
+        position: static;
+    }
+
+    .marginAr {
+        top: 10px !important;
+        left: 150px !important;
+        width: 47px !important;
+        height: 96px !important;
+        background-position: 0 -144px !important;
+    }
+
+    .marginContainerT {
+        height: 240px !important;
+    }
+
+    #tdtable h3 {
+        font-size: 18px !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #tdtable {
+        display: block !important;
+    }
+
+    .marginC {
+        margin-left: 0px !important;
+    }
+
+    .respInput {
+        display: inline-table !important;
+    }
+
+    .respInputC {
+        display: none;
+    }
+
+    .marginGroupG {
+        margin-top: 0px;
+        text-align: center;
+    }
+
+    .marginGroupN {
+        margin-top: 0px;
+        text-align: center;
+    }
+
+    .imageG img {
+        width: 35% !important;
+        height: 35% !important;
+    }
+
+    .marginContainerT {
+        height: 350px;
+    }
+
+
+    .marginAr {
+        top: 10px !important;
+        left: 0px !important;
+        width: 47px !important;
+        height: 96px !important;
+        background-position: 0 -144px !important;
+    }
+
+    .marginGroupT {
+        margin-top: 0px;
+        text-align: center;
+    }
+
+    .respInput {
+        display: inline-table !important;
+    }
+
+    .respInputC {
+        display: none;
+    }
+
+    .marginGroupGT {
+        margin-top: 0px;
+    }
+
+    .marginC {
+        margin-left: 0px !important;
+    }
+
+    .imgsize {
+        margin-bottom: 20px !important;
+    }
+
+    .imageG img {
+        width: 35% !important;
+        height: 35% !important;
+    }
+
+    .marginContainerT {
+        height: 477px !important;
+        margin-top: -20px !important;
+    }
+
+    /*.imgsize {
+        margin-bottom: 20px !important;
+        margin-top: -60px !important;
+    }*/
+}
+
+@media only screen and (max-width: 479px) {
+    .respInput {
+        display: inline-table !important;
+    }
+
+    #tdtable h3 {
+        font-size: 18px !important;
+    }
+
+    .margin-top {
+        margin-top: 3px;
+    }
+
+    .owl-theme .owl-nav.disabled + .owl-dots {
+        margin-top: -146px;
+    }
+
+    .respText {
+        display: none;
+    }
+
+    .respInputC {
+        display: none;
+    }
+
+    .arrow {
+        display: inline-block !important;
+    }
+
+    .marginGroupN {
+        margin-top: -20px;
+    }
+
+    .marginGroupT {
+        margin-top: -20px;
+    }
+
+    .arrow.hrb {
+        background-position: 0 -144px;
+        width: 47px;
+        height: 96px;
+        top: 10px !important;
+        left: 0px !important;
+    }
+
+    #tdtable {
+        display: block !important;
+    }
+
+    .espaceDiv {
+        margin-left: 0px !important;
+    }
+
+    .imgsize {
+        width: 120px;
+    }
+
+    .marginGroupG {
+        margin-top: -30px !important;
+    }
+
+    .imgsizeT {
+        width: 120px;
+        margin-bottom: 20px !important;
+        margin-top: -60px !important;
+    }
+     .marginGroupGT {
+            margin-top: -20px;
+        }
+
+
+        .espaceDiv {
+            margin-left: 0px !important;
+        }
+
+        .imgsizeGT {
+            width: 120px;
+            margin-bottom: 20px !important;
+            margin-top: 0px !important;
+        }
+
+        .arrowbl {
+            display: none !important;
+        }
+           .center {
+            margin-left: -60px;
+        }
+
+        .call-to-action-content {
+            margin-left: -20px !important;
+            width: 90% !important;
+            margin-top: -25px !important;
+        }
+
+
+            .call-to-action-content h3 {
+                font-size: 17px;
+            }
+
+        .call-to-action-btn {
+            margin-top: 0px !important;
+            margin-left: -30px !important;
+        }
+
+        .label {
+            float: left !important;
+        }
+       
+        .hrt {
+            background-position: 0 -144px !important;
+            width: 47px !important;
+            height: 96px !important;
+            top: 10px !important;
+            left: 0px !important;
+        }
+
+        .test1 {
+            margin-left: 60px !important;
+        }
+
+        .br {
+            display: none;
+        }
+
+        .imageG img {
+            width: 25% !important;
+            height: 25% !important;
+        }
+
+}
+
+@media only screen and (max-width : 960px) {
+
+
+    .marginAr {
+        display: none !important;
+    }
+
+    #test {
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (max-width : 800px) {
+    .call-to-action table {
+        margin-top: -15px !important;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .call-to-action table {
+        margin-top: -20px !important;
+    }
+
+    .marginAr {
+        display: none !important;
+    }
+}
+
+@media only screen and (min-width: 961px) and (max-width: 1200px) {
+    .call-to-action.with-button-arrow .call-to-action-btn {
+        margin-top: -110px;
+        margin-left: 60%;
+    }
+
+    .arrow.hrb {
+        background-position: -353px 0 !important;
+        height: 47px !important;
+        width: 120px !important;
+    }
+
+    .marginAr {
+        display: block !important;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .inline {
+        display: inline-block !important;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    .inflex {
+        display: inline-flex !important;
+    }
+}
+
+@media only screen and (min-width : 800px) and (max-width : 900px) {
+
+
+    .voir {
+        display: none;
+    }
+
+    #tdtable h3 {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 480px) {
+
+
+    .call-to-action-content {
+        width: 100% !important;
+    }
+
+    .br {
+        display: none;
+    }
+
+    .inline {
+        display: inline-block !important;
+        /*margin-left: -20px;*/
+    }
+}
+
+@media (max-width: 320px) {
+
+    #tdtable h3 {
+        font-size: 18px !important;
+    }
+
+    .marginContainerT {
+        height: 480px !important;
+        margin-top: -10px !important;
+    }
+
+    .call-to-action-btn {
+        margin-left: -20px !important;
+    }
+
+
+    .marginGroupGT {
+        margin-left: -32px !important;
+    }
+}
+
+@media only screen and (min-width: 321px)and (max-width: 760px) {
+    .input-group {
+        margin-left: -40px;
+    }
+}

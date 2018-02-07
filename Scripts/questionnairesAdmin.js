@@ -5,10 +5,10 @@
     $("#liCalendrier").removeClass("active");
 
     $('#submitimporter').click(function (event) {
-       
+
         onBeginSubmit();
         event.preventDefault();
-        if ($('#formImportEval')[0].checkValidity()) {           
+        if ($('#formImportEval')[0].checkValidity()) {
             $("#loading-form-import-exam").css("display", "block")
             var dataString;
             var action = $("#formImportEval").attr("action");
@@ -37,7 +37,7 @@
         }
     });
     $("#submitimporter").click(function (event) {
-                        
+
     }); //end .submit()
 });
 
@@ -57,7 +57,7 @@ $("#submitimporter").on("click", function (e) {
 
 function onSuccessImportEvaluation(data) {
 
-    if (data.etat == "ok") {       
+    if (data.etat == "ok") {
         $("#submitimporter").attr('disabled', 'disabled');
         $().toastmessage('showSuccessToast', "Import effectué avec succès.");
         setTimeout(function () {
@@ -71,7 +71,7 @@ function onSuccessImportEvaluation(data) {
     }
 }
 function onSuccessAddEval(data) {
-   
+
     if (data.idEval != "-1") {
         window.location.href = "/questionnairedetail/" + $.base64.encode(data.idEval);
     }
@@ -141,9 +141,17 @@ function onSuccessAddExam(data) {
     });
 }).apply(this, [jQuery]);
 
-function RedirectTolistquizs() {    
-    var idTraining = $("#idFormationCalendar").val(); 
-    location.href = "/listquizs/" + $.base64.encode(idTraining);
+function RedirectTolistquizs() {
+    var idTraining = $("#idFormationCalendar").val();
+
+    var passerquiz = true;
+    location.href = "/listquizs/" + $.base64.encode(idTraining) + "/" + passerquiz;
+}
+function RedirectTononpasquizs() {
+    var idTraining = $("#idFormationCalendar").val();
+    console.log("111");
+    var passerquiz = false;
+    location.href = "/listquizs/" + $.base64.encode(idTraining) + "/" + passerquiz;
 }
 function RedirectToEditTraining() {
     var idTraining = $("#formationsListSelect option:selected").val();
@@ -155,6 +163,6 @@ $("#formationsListSelect").on("change", function (e) {
 });
 
 function RedirectTolistquestionnaires() {
-    var idTraining = $("#idFormationCalendar").val();   
-    location.href = "/listquestionnaires/" + $.base64.encode(idTraining);   
+    var idTraining = $("#idFormationCalendar").val();
+    location.href = "/listquestionnaires/" + $.base64.encode(idTraining);
 }
