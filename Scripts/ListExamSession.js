@@ -231,7 +231,7 @@ function onSuccessEditSession(data) {
     }
 }
 
-function RedirectTolistquizs() {
+function RedirectTolistquiz() {
     var idTraining = $("#idFormationCalendar").val();
     var passerquiz = true;
     location.href = "/listquizs/" + $.base64.encode(idTraining) + "/" + passerquiz;

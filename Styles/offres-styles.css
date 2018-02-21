@@ -30,9 +30,7 @@
         }
 
        
-        .btn-warning {
-            margin-left: 20px;
-        }
+     
 .marginC {
     margin-left: 100px !important;
 }
@@ -94,7 +92,6 @@
 .respInput {
     display: none;
 }
-
 
 @media only screen and (max-width: 767px) {
     .marginC {
@@ -455,3 +452,6 @@
         margin-left: -40px;
     }
 }
+
+
+

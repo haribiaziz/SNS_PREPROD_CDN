@@ -23,11 +23,11 @@
             var doReturn = false;
         }
         var defaults = {
-            message: 'Nous utilisons des cookies pour vous garantir la meilleure expérience sur notre site.', //Message displayed on bar
+            message: 'Nous utilisons des cookies pour vous assurer la meilleure expérience sur notre site. Si vous continuez à utiliser ce site, nous supposerons que vous en êtes satisfait..', //Message displayed on bar
             acceptButton: true, //Set to true to show accept/enable button
             acceptText: 'Je comprends', //Text on accept/enable button
             acceptFunction: function (cookieValue) { if (cookieValue != 'enabled' && cookieValue != 'accepted') window.location = window.location.href; }, //Function to run after accept
-            declineButton: true, //Set to true to show decline/disable button
+            declineButton: false, //Set to true to show decline/disable button
             declineText: 'Désactiver Cookies', //Text on decline/disable button
             declineFunction: function (cookieValue) { if (cookieValue == 'enabled' || cookieValue == 'accepted') window.location = window.location.href; }, //Function to run after decline
             policyButton: false, //Set to true to show Privacy Policy button

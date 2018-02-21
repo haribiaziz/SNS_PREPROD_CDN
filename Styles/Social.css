@@ -281,7 +281,7 @@ input[type="checkbox"] {
 	padding: 15px 0;
 }
 
-.badge {
+/*.badge {
 	border-radius: 3px; 
 	font-size: 14px; 
 	position: absolute; 
@@ -289,7 +289,7 @@ input[type="checkbox"] {
 	top:10px; 
 	border-color: #4CAE4C;
 	margin-left: 5px;
-}
+}*/
 
 .com_to_field {
 	display: none;	

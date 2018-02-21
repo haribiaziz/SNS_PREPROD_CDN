@@ -5,7 +5,7 @@
     $("#liCalendrier").removeClass("active");
 
     $('#submitimporter').click(function (event) {
-
+       
         onBeginSubmit();
         event.preventDefault();
         if ($('#formImportEval')[0].checkValidity()) {

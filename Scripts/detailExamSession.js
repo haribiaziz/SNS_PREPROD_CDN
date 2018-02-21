@@ -97,7 +97,7 @@ function RedirectTononpasquizs() {
     var passerquiz = false;
     location.href = "/listquizs/" + $.base64.encode(idTraining) + "/" + passerquiz;
 }
-function RedirectTolistquizs() {
+function RedirectTolistquiz() {
     var idTraining = $("#idFormationCalendar").val();
     var passerquiz = true;
     location.href = "/listquizs/" + $.base64.encode(idTraining) + "/" + passerquiz;
