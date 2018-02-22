@@ -227,31 +227,25 @@ function setCarousel() {
                     margin: 90,
                     nav: true,
                 },
-                700: {
-                    items: 2,
-                    margin: 30,
-                    nav: true,
-                    autoWidth: true,
-
-                },
-                //600: {
-                //    items: 3,
-                //    margin: 50,
-                //    nav: true,
-                //},
-                //992: {
-                //    items: 3,
-                //    margin: 5,
-                //    nav: true,
-                //    autoWidth: true,
-
-                //},
-                1024: {
+                598: {
                     items: 2,
                     margin: 50,
                     nav: true,
-                    autoWidth: true,
-
+                },
+                768: {
+                    items: 3,
+                    margin: 50,
+                    nav: true,
+                },
+                992: {
+                    items: 3,
+                    margin: 5,
+                    nav: true,
+                },
+                1024: {
+                    items: 3,
+                    margin: 50,
+                    nav: true,
                 },
                 1200: {
                     items: 3,

@@ -190,7 +190,8 @@ $("#formationsListSelectmembre").on("change", function (e) {
 
 $("#formationselearginingListSelect").on("change", function (e) {
     var idTraining = $("#formationselearginingListSelect option:selected").val();
-    location.href = "/listquizs/" + $.base64.encode(idTraining);
+    var passerquiz = false;
+    location.href = "/listquizs/" + $.base64.encode(idTraining) + "/" + passerquiz;
 });
 
 
@@ -231,7 +232,7 @@ function onSuccessEditSession(data) {
     }
 }
 
-function RedirectTolistquiz() {
+function RedirectTolistquizs() {  
     var idTraining = $("#idFormationCalendar").val();
     var passerquiz = true;
     location.href = "/listquizs/" + $.base64.encode(idTraining) + "/" + passerquiz;

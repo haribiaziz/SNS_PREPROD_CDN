@@ -4,7 +4,7 @@
 
 }
 function Init_Upload() {
-    $('#FormUpload input[name=UploadedFiles]').change(function (evt) { singleFileSelected(evt); });
+    $('#FormUpload input[name=UploadedFile]').change(function (evt) { singleFileSelected(evt); });
     $("#FormUpload button[id=Cancel_btn]").click(function () {
         Cancel_btn_handler()
     });
@@ -23,17 +23,17 @@ function Init_Upload() {
         left: '25%',
         color: '#000',
         border: '3px solid #aaa',
-        backgroundColor: '#ccc'
+        backgroundColor: '#fff'
     };
     $.blockUI({ message: $('#createView') });
 }
 
 function singleFileSelected(evt) {
     //var selectedFile = evt.target.files can use this  or select input file element and access it's files object
-    var selectedFile = ($("#UploadedFiles"))[0].files[0];//FileControl.files[0];
+    var selectedFile = ($("#UploadedFile"))[0].files[0];//FileControl.files[0];
     if (selectedFile) {
         var FileSize = 0;
-        //var imageType = /image.*/;
+        var imageType = /image.*/;
         if (selectedFile.size > 1048576) {
             FileSize = Math.round(selectedFile.size * 100 / 1048576) / 100 + " MB";
         }
@@ -44,21 +44,22 @@ function singleFileSelected(evt) {
             FileSize = selectedFile.size + " Bytes";
         }
 
-        //if (selectedFile.type.match(imageType)) {
-        //    var reader = new FileReader();
-        //    reader.onload = function (e) {
+        if (selectedFile.type.match(imageType)) {
+            var reader = new FileReader();
+            reader.onload = function (e) {
 
-        //        $("#Imagecontainer").empty();
-        //        var dataURL = reader.result;
-        //        var img = new Image()
-        //        img.src = dataURL;
-        //        img.className = "thumb";
-        //        $("#Imagecontainer").append(img);
-        //    };
-        //    reader.readAsDataURL(selectedFile);
-        //}
-        $("#FileName").text(selectedFile.name);
-        $("#FileSize").text(FileSize);
+                $("#Imagecontainer").empty();
+                var dataURL = reader.result;
+                var img = new Image()
+                img.src = dataURL;
+                img.className = "thumb";
+                $("#Imagecontainer").append(img);
+            };
+            reader.readAsDataURL(selectedFile);
+        }
+        $("#FileName").text("Name : " + selectedFile.name);
+        $("#FileType").text("type : " + selectedFile.type);
+        $("#FileSize").text("Size : " + FileSize);
     }
 }
 
@@ -67,13 +68,11 @@ function UploadFile() {
     //or creating it manually using append function  but please note file file name should be same like the action Paramter
     //var dataString = new FormData();
     //dataString.append("UploadedFile", selectedFile);
+
     var form = $('#FormUpload')[0];
     var dataString = new FormData(form);
-    var trainingid = document.getElementById("trainingid").value;
-    dataString.append("Id", trainingid);
-   
     $.ajax({
-        url: '/AdministrerHtml/UplodMultiple',  //Server script to process data
+        url: '/Uploader/Upload',  //Server script to process data
         type: 'POST',
         xhr: function () {  // Custom XMLHttpRequest
             var myXhr = $.ajaxSettings.xhr();

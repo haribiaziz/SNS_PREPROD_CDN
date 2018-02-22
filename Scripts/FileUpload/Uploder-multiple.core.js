@@ -48,7 +48,6 @@ function Init_Multiple_Upload() {
         UploadMultipleFiles();
     });
     var dropZone = document.getElementById('drop_zone');
-    //alert(dropZone);
     dropZone.addEventListener('dragover', handleDragOver, false);
     dropZone.addEventListener('drop', MultiplefileSelected, false);
     dropZone.addEventListener('dragenter', dragenterHandler, false);
