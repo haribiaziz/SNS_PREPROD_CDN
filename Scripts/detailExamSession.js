@@ -89,9 +89,19 @@ $("#formationsListSelect").on("change", function (e) {
 });
 $("#formationsListQuizSelect").on("change", function (e) {
     var idTraining = $("#formationsListQuizSelect option:selected").val();
-    var passerquiz = false;
+    var passerquiz = true;
     location.href = "/listquizs/" + $.base64.encode(idTraining) + "/" + passerquiz;
 });
+function RedirectTononpasquizs() {
+    var idTraining = $("#idFormationCalendar").val();
+    var passerquiz = false;
+    location.href = "/listquizs/" + $.base64.encode(idTraining) + "/" + passerquiz;
+}
+function RedirectTolistquiz() {
+    var idTraining = $("#idFormationCalendar").val();
+    var passerquiz = true;
+    location.href = "/listquizs/" + $.base64.encode(idTraining) + "/" + passerquiz;
+}
 $("#sessionsListSelect").on("change", function (e) {
     var idSession = $("#sessionsListSelect option:selected").val();
     var idTraining = $("#formationsListSelect option:selected").val();
