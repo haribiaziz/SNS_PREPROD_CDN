@@ -2524,7 +2524,7 @@ section.section-custom-map-2 {
         .home-concept .process-image img {
             border-radius: 150px;
             margin: 7px 8px;
-            width: auto !important;
+            /*width: auto !important;*/
             height: auto !important;
             max-width: 145px !important;
             max-height: 145px !important;

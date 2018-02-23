@@ -7,7 +7,7 @@
             margin: 7px 8px;
             max-height: 145px;
             max-width: 145px;
-            width: auto;
+            /*width: auto;*/
         }
 
 
@@ -293,11 +293,6 @@
             margin-left: -60px;
         }
 
-        .call-to-action-content {
-            margin-left: -20px !important;
-            width: 90% !important;
-            margin-top: -25px !important;
-        }
 
 
             .call-to-action-content h3 {
@@ -321,9 +316,9 @@
             left: 0px !important;
         }
 
-        .test1 {
+        /*.test1 {
             margin-left: 60px !important;
-        }
+        }*/
 
         .br {
             display: none;
@@ -439,13 +434,13 @@
 
 
     .marginGroupGT {
-        margin-left: -32px !important;
-    }
+    margin-left: 42px !important;
+}
 }
 
 @media only screen and (min-width: 321px)and (max-width: 760px) {
     .input-group {
-        margin-left: -40px;
+       margin-left: 41px !important;
     }
    
    

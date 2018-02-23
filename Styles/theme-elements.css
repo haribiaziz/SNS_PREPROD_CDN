@@ -1338,6 +1338,9 @@ ul.thumbnail-gallery {
 
 /* Mockup */
 @media (min-width: 992px) {
+    .position-flesh{
+        top: 40px !important;
+    }
     .mockup-landing-page {
         margin-top: -120px;
     }
@@ -2486,7 +2489,6 @@ ul.sitemap.list ul {
     margin: 0px 0 20px;
 }
 /* Responsive */
-
 @media (max-width: 479px) {
     .owl-carousel-spaced {
         margin-left: 0;
@@ -6505,7 +6507,6 @@ section.timeline {
 
 /* Responsive */
 @media (max-width: 479px) {
-
     .arrow {
         display: none;
     }
@@ -6663,12 +6664,6 @@ section.timeline {
 
 /* Responsive */
 @media (max-width: 767px) {
-   
-
-    .call-to-action .call-to-action-btn {
-        top: 7% !important;
-    }
-
     .call-to-action .call-to-action-content,
     .call-to-action .call-to-action-btn {
         margin: 0;
