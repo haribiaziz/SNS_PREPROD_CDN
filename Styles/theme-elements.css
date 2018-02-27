@@ -288,12 +288,12 @@ h6.text-shadow {
 
 /* Responsive */
 @media(max-width: 430px) {
-  
+
     .height-bloc {
         height: 780px !important;
     }
-  
 }
+
 @media (max-width: 479px) {
     h2 {
         line-height: 40px;
@@ -1338,6 +1338,10 @@ ul.thumbnail-gallery {
 
 /* Mockup */
 @media (min-width: 992px) {
+    .position-flesh {
+        top: 40px !important;
+    }
+
     .mockup-landing-page {
         margin-top: -120px;
     }
@@ -2483,7 +2487,7 @@ ul.sitemap.list ul {
     font-weight: 700;
     line-height: 1.1;
     text-transform: uppercase;
-    margin: 39px 0 20px;
+    margin: 0px 0 20px;
 }
 /* Responsive */
 @media (max-width: 479px) {
@@ -6251,6 +6255,91 @@ section.timeline {
     color: #FFF;
 }
 
+.social-iconshare {
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+
+    .social-iconshare li {
+        display: inline-block;
+        /*margin: -1px 1px 5px 0;*/
+        padding: 0;
+        border-radius: 100%;
+        overflow: visible;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.3);
+    }
+
+        .social-iconshare li a {
+            -webkit-transition: all 0.2s ease;
+            -moz-transition: all 0.2s ease;
+            transition: all 0.2s ease;
+            border-radius: 100%;
+            display: block;
+            height: 30px;
+            line-height: 30px;
+            width: 30px;
+            text-align: center;
+            text-decoration: none;
+        }
+
+            .social-iconshare li a i {
+                color: #fff;
+            }
+
+
+
+        .social-iconshare li.social-icons-viadeo {
+            background: #f4982b;
+        }
+
+        .social-iconshare li.social-icons-twitter {
+            background: #1aa9e1;
+        }
+
+        .social-iconshare li.social-icons-facebook {
+            background: #3b5a9a;
+        }
+
+        .social-iconshare li.social-icons-linkedin {
+            background: #0073b2;
+        }
+
+        .social-iconshare li.social-icons-rss {
+            background: #ff8201;
+        }
+
+        .social-iconshare li.social-icons-googleplus {
+            background: #dd4b39;
+        }
+
+        .social-iconshare li.social-icons-pinterest {
+            background: #cc2127;
+        }
+
+        .social-iconshare li.social-icons-youtube {
+            background: #c3191e;
+        }
+
+        .social-iconshare li.social-icons-instagram {
+            background: #7c4a3a;
+        }
+
+        .social-iconshare li.social-icons-skype {
+            background: #00b0f6;
+        }
+
+        .social-iconshare li.social-icons-email {
+            background: #dd4b39;
+        }
+
+        .social-iconshare li.social-icons-vk {
+            background: #6383a8;
+        }
+
+
+
+
 /* Social Icons */
 .social-icons {
     margin: 0;
@@ -6427,7 +6516,7 @@ section.timeline {
 .call-to-action {
     position: relative;
     clear: both;
-    min-height: 125px;
+    min-height: 180px;
     padding-left: 25px;
     padding-right: 25px;
 }
@@ -6833,7 +6922,7 @@ section.timeline {
     }
 
 .counters.counters-text-dark .counter {
-    margin-top: 9px;
+    margin-top: -5px;
     color: #2e353e !important;
 }
 
@@ -6849,7 +6938,7 @@ section.timeline {
     position: relative;
     max-height: 22px;
     line-height: 22px;
-    top: 7px
+    top: 7px;
 }
 
     .word-rotate .word-rotate-items {
@@ -8647,3 +8736,17 @@ html .panel-group-bleu .panel-heading {
             border-right: 2px solid #ed9c28;
             box-shadow: 0 0 16px #030303;
         }
+
+@media only screen and (max-width : 960px) {
+
+
+    #test {
+        margin-top: 40px;
+        margin-left: 46px;
+    }
+}
+@media only screen and (max-width: 479px) {
+    .respoimage {
+        display: none;
+    }
+}
