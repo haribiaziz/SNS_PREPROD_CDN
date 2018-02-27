@@ -32,13 +32,7 @@ function successHandler(data) {
             $("#docRessource").html(data.html);
             $().toastmessage('showSuccessToast', "Ressource Uploadé avec succès");
         }
-        else if (data.typeDoc == "i") {
-            $().toastmessage('showSuccessToast', "Image(s) Uploadé avec succès");
-        }
-        else if (data.typeDoc == "a") {
-            $().toastmessage('showSuccessToast', "Partial Uploadé avec succès");
-        }
-       //$().toastmessage('showSuccessToast', "Opération effectuée avec sucès");
+        //$().toastmessage('showSuccessToast', "Opération effectuée avec sucès");
     }
     else {
         //alert(data.status);

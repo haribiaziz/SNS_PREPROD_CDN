@@ -93,8 +93,6 @@ function OnSuccessAddCommentaire(data) {
     }
 }
 
-
-
 function getInfoVideo(authenticated, idTrg, subscribed, purshased) {
     if (authenticated == 'true') {
         var permission = (subscribed.toLowerCase() == 'true' || purshased.toLowerCase() == 'true') ? true : false;

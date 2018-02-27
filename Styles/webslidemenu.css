@@ -893,10 +893,7 @@
         visibility: hidden;
     }
 
-    .wsdownmenu-list li:hover > #submenuSearch {
-                right: 2% !important;
 
-    }
     .wsdownmenu-list li:hover > .megamenu {
         transform: rotateX(0deg);
         -o-transform: rotateX(0deg);
