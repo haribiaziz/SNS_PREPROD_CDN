@@ -6,7 +6,7 @@
 	$.fn.jPopup = function (options) {
 		var settings = $.extend({
 			popupParent : "gee-popup",
-			scrollTopPx : 100,
+			scrollTopPx : 1000,
 			popupCloseButton : ".popup-close-button",
 			heading : "heading - You can change",
 			paragraph : "You can change paragraph from options. You can also change the input into your own template",

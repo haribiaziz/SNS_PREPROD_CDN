@@ -49,7 +49,7 @@
             display: block;
         }
 
-        .dropdown-submenu > a:after {
+       #menuUser .dropdown-submenu > a:after {
             display: block;
             content: " ";
             float: right;
@@ -2509,11 +2509,17 @@
     }
 
     .small-menu-label {
-        margin-left: -50px !important;
+        margin-left: -90px !important;
+        font-size: 14px !important;
+
+    }
+     .small-menu-span {
+        font-size: 8px !important;
+        margin-left: -90px !important;
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 580px) {
     .small-menu-span {
         margin-left: -90px !important;
         font-size: 8px !important;
