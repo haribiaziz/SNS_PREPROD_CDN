@@ -120,7 +120,7 @@ function redirectToEditQuestionnaire() {
 }
 function RedirectToEditTraining() {
     var idTraining = $("#formationsListSelect option:selected").val();
-    location.href = "/moncatalogue/editerFormationPresentiel/" + $.base64.encode(idTraining);
+    location.href = "/editformation/" + $.base64.encode(idTraining);
 }
 
 $('#dateFinSession').datetimepicker({

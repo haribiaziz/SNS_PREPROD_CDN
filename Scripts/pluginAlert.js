@@ -10,9 +10,9 @@
 			popupCloseButton : ".popup-close-button",
 			heading : "heading - You can change",
 			paragraph : "You can change paragraph from options. You can also change the input into your own template",
-			userContent : '<div class="input"> <input class="form-control" type="text" placeholder="Votre Email" > </div>',
+			userContent : '<div class="input"> <input class="form-control" type="email" placeholder="Votre Email" required /> </div>',
 			buttonText : 'Click me',
-			buttonClass : "btn btn-info btn-block btn-lg",
+			buttonClass : "btn btn-warning btn-block btn-lg btnSubmitLetter",
 			// openPopup : "asd",
 			initThrough : function () {
 				$(window).on('scroll', function(event) {
@@ -36,6 +36,7 @@
 		$(".gee-popup .paragraph").html(settings.paragraph);
 		$(".gee-popup .user-content").html(settings.userContent);
 		$(".gee-popup .btn").html(settings.buttonText);
+		$(".gee-popup .btn").attr("type", "submit");
 		$(".gee-popup .btn").addClass(settings.buttonClass);
 		$(".popup-close-button").click(function() {
 			$('html').toggleClass('active-poup');
@@ -43,6 +44,6 @@
 		});
 	}
 	$.fn.jPopup.openPopup = function () {
-		$("html").addClass('active-poup');
+	    $("html").addClass('active-poup');
 	}
 }(jQuery))

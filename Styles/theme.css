@@ -4927,7 +4927,7 @@ html.boxed .main {
         .menu-responsive ul > li > a {
             padding: 12px 25px;
             width: 100%;
-            color: #abb4be;
+            color: #fff;
             font-size: 1.3rem;
             text-overflow: ellipsis;
             white-space: nowrap;
@@ -4935,7 +4935,7 @@ html.boxed .main {
         }
 
             .menu-responsive ul > li > a:hover {
-                background-color: #21262d;
+                background-color: #208ac8;
                 text-decoration: none;
             }
 
@@ -4945,6 +4945,7 @@ html.boxed .main {
         text-align: center;
         vertical-align: middle;
         width: 1.1em;
+        color:#fff !important;
     }
 
 .menu-responsive-user {
@@ -5583,7 +5584,6 @@ html.boxed .main {
     font-size: 13px;
     letter-spacing: normal;
     line-height: 22px;
-    padding: 6px 12px;
     text-align: left;
     text-transform: none;
 }
@@ -5591,14 +5591,29 @@ html.boxed .main {
 
 #backmenu li a{
     color: #666666 !important;
+    margin-left: 15px;
 }
+
+#backmenu li i{
+    color: #0088cc !important;
+}
+
 #backmenu li {
     margin-bottom:-15px !important;
 }
+
 #backmenu li :hover{
     background-color:transparent;
     text-decoration:underline;
 }
+
 #hoversub .caretdown{
-    margin-top:-20px !important;
+    display: block;
+    height: 23px;
+    width: 25px;
+    margin-top: 2px;
+    margin-right: -10px;
+    background-size: 25px;
+    font-size: 21px;
+    float: right;
 }
