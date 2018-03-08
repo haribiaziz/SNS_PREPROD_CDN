@@ -55,7 +55,8 @@ $("document").ready(function(){
             "class":"fa fa-facebook",
             "background": "#3b5998",
             "url": "https://www.facebook.com/sharer/sharer.php?u="+url,
-            "count": social_count.facebook()
+            "count": social_count.facebook(),
+            "borderT": "first-Share",
         },
         "googleplus": {
             "class":"fa fa-google-plus",
@@ -68,7 +69,11 @@ $("document").ready(function(){
             "class":"fa fa-twitter",
             "background": "#4ab8ed",
             "url": "https://twitter.com/intent/tweet?text="+title+"&url="+url+"&via=TWITTER-HANDLE",
-            "count": 10
+            "count": 10,
+            "borderB": "last-Share",
+            "borderR": "first-Share-Resp",
+
+
         },
        
         "linkedin": {
@@ -76,6 +81,7 @@ $("document").ready(function(){
             "background": "#0077b5",
             "url": "https://www.linkedin.com/shareArticle?mini=true" + "&url=" + url + "&title=" + title + "&summary=" + description + "&source=" + base_url,
             "count": social_count.linkedin()
+
         }
     };
     $.social_share = function(socialmedia_list) {
@@ -96,6 +102,9 @@ $("document").ready(function(){
 			$count = $("<div></div>").addClass("count "+media).html(sicon.count);
 			$social_icon.append($symbol).append($count);
 			$social_icon.css("background", sicon.background);
+			$social_icon.addClass(sicon.borderT);
+			$social_icon.addClass(sicon.borderB);
+			$social_icon.addClass(sicon.borderR);
             $link.append($social_icon);
 			$social_container.append($link)
 		});

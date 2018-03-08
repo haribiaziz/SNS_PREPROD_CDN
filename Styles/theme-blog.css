@@ -3,6 +3,16 @@ Name: 			theme-blog.css
 Written by: 	Okler Themes - (http://www.okler.net)
 Version: 		5.1.0
 */
+ .modeRespOnly{
+        display:none;
+    }
+  .showRespNo {
+            display: block;
+        }
+
+        .showResp {
+            display: none;
+        }
 /* Posts */
 .blog-posts article {
 	border-bottom: 1px solid #DDD;
@@ -228,12 +238,13 @@ ul.comments {
 
 ul.comments li {
 	clear: both;
-	padding: 10px 0 0 115px;
+	padding: 10px 0 0 75px;
 }
 
 ul.comments li img.avatar {
-	height: 80px;
-	width: 80px;
+	height: 50px;
+	width: 50px;
+    border-radius: 50%;
 }
 
 ul.comments li ul.reply {
@@ -245,8 +256,9 @@ ul.comments li a {
 }
 
 ul.comments li .img-thumbnail {
-	margin-left: -115px;
+	margin-left: -75px;
 	position: absolute;
+    border-radius: 50%;
 }
 
 ul.comments li .comment {
@@ -395,4 +407,17 @@ ul.simple-post-list .post-info {
 	ul.comments .comment-arrow {
 		display: none;
 	}
+    .float-resp{
+        float:left !important;
+    }
+    .modeRespOnly{
+        display:block;
+    }
+       .showRespNo {
+            display: none;
+        }
+
+        .showResp {
+            display: block;
+        }
 }

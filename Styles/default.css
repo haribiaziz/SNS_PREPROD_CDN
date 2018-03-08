@@ -4683,6 +4683,7 @@ html.boxed .body {
 }
 
 @media (max-width: 480px) {
+   
     #header .header-search .header-search-wrapper {
         width: 300px;
     }
@@ -4715,6 +4716,7 @@ html.boxed .body {
 }
 
 @media (min-width: 768px) {
+   
     #header .header-search .header-search-wrapper .form-control {
         padding-left: 20px;
         padding-right: 20px;
@@ -4775,6 +4777,10 @@ html.boxed .body {
 }
 
 @media (min-width: 992px) {
+      .text-pading{
+        margin-top: 75px;
+        line-height:30px;
+    }
     #header .header-search .search-toggle {
         display: none;
     }

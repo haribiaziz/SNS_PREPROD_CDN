@@ -5046,7 +5046,10 @@ html.boxed .main {
 .header .navbar-searchbox .dropdown-menu a {
     color: #969696;
 }
+.header .navbar-searchbox .dropdown-menu a{
+  background-color: transparent !important;
 
+}
 .header .navbar-searchbox .dropdown-menu li:hover {
     background: rgba(0, 0, 0, 0.05);
 }
@@ -5056,9 +5059,9 @@ html.boxed .main {
 }
 
     .header .navbar-searchbox .dropdown-menu li {
-        padding-left: 10px;
+        /*padding-left: 10px;
         padding-right: 21px;
-        padding-bottom: 7px;
+        padding-bottom: 7px;*/
         line-height: 19px;
     }
 
