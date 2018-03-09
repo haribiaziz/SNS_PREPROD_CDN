@@ -4787,6 +4787,7 @@ html.boxed .main {
     .userbox .profile-info, .userbox .profile-picture {
         display: inline-block;
         vertical-align: middle;
+        max-width: 100px;
     }
 
     .userbox .profile-info {
@@ -4802,6 +4803,10 @@ html.boxed .main {
         color: #000011;
         font-size: 1.3rem;
         line-height: 1.2em;
+        white-space: nowrap;
+        overflow: hidden;
+        width: 100%;
+        text-overflow: ellipsis;
     }
 
     .userbox .name, .userbox .role {
@@ -4812,6 +4817,10 @@ html.boxed .main {
         color: #acacac;
         font-size: 1.1rem;
         line-height: 1.2em;
+        white-space: nowrap;
+        overflow: hidden;
+        width: 100%;
+        text-overflow: ellipsis;
     }
 
     .userbox.open .dropdown-menu {
@@ -5098,6 +5107,11 @@ html.boxed .main {
 }
 
 @media(max-width: 1300px) {
+     .userbox .profile-info, .userbox .profile-picture {
+        display: inline-block;
+        vertical-align: middle;
+        max-width: 60px;
+    }
     .image img {
         width: 35% !important;
         height: 35% !important;
