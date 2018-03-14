@@ -2316,7 +2316,7 @@ ul.sitemap.list ul {
 
 /* Owl Carousel */
 .owl-carousel {
-    margin-bottom: 20px;
+    margin-bottom: 13px;
 }
 
     .owl-carousel .owl-item img {
@@ -2491,9 +2491,15 @@ ul.sitemap.list ul {
 }
 /* Responsive */
 @media (max-width: 479px) {
-    .owl-carousel-spaced {
-        margin-left: 0;
+    .respon-header {
+     margin-top: -53px;
     }
+}
+
+.owl-carousel-spaced {
+    margin-left: 0;
+}
+
 }
 /* Carousel Areas */
 .carousel-areas {
@@ -8745,8 +8751,59 @@ html .panel-group-bleu .panel-heading {
         margin-left: 46px;
     }
 }
+
 @media only screen and (max-width: 479px) {
     .respoimage {
         display: none;
     }
 }
+
+  .ActifAbn {
+        background: transparent none repeat scroll 0 0;
+        color: #0088cc;
+        font-weight: 600;
+        font-size: 16px;
+        text-shadow: none;
+        border: 4px solid #0088cc;
+        padding-left: 25px;
+        padding-right: 25px;
+        border-radius: 10px;
+    }
+    .ExpireAbn {
+        background: transparent none repeat scroll 0 0;
+        color: red;
+        text-shadow: none;
+        font-weight: 600;
+        font-size: 16px;
+        border: 4px solid red;
+        padding-left: 25px;
+        padding-right: 25px;
+        border-radius: 10px;
+    }
+    .Abnpad {
+        margin-top: 15px;
+    }
+    .abnh {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: normal;
+        font-size: 13px;
+        line-height: 1.4;
+        text-align: center;
+        text-transform: none;
+        margin-top: 2px;
+    }
+    .abna {
+        color: #000;
+        font-weight: 600;
+        letter-spacing: 0;
+    }
+    .abni {
+        color: #ed9c28;
+        font-weight: 600;
+        margin-right: 4px;
+    }
+    .abndiv {
+        float: left;
+        padding-bottom: 5px;
+    }

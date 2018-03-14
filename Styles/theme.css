@@ -5116,7 +5116,10 @@ html.boxed .main {
         width: 35% !important;
         height: 35% !important;
     }
+    .home-concept .process-image img{
+        width: auto !important;
 
+    }
     .titreAbonment {
         margin-top: -6px !important;
         text-align: center;
@@ -5634,3 +5637,6 @@ html.boxed .main {
     font-size: 21px;
     float: right;
 }
+    .dropdown-menu > li > a >i{
+        margin-left:-10px;
+    }

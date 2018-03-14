@@ -316,3 +316,151 @@ body .btn-facebook, body .btn-facebook:focus {
     background: #007bb6;
     border-color: #007bb6;
 }
+  .error {
+        color: #c50765;
+        display:none;
+    }
+    .heigt{
+        line-height:1.7;
+    }
+    .flexbox {
+        display: flex;
+    }
+
+        .flexbox .stretch {
+            flex: 1;
+        }
+
+        .flexbox .normal {
+            flex: 0;
+            margin: 0 0 0 1rem;
+        }
+
+        .flexbox div input {
+            padding: .5em 1em;
+            width: 100%;
+        }
+
+        .flexbox div button {
+            padding: .5em 1em;
+            white-space: nowrap;
+        }
+           .imgacount {
+        margin-top: -20px;
+        margin-bottom: 13px;
+    }
+           .labelacount {
+        margin-top: 10px;
+    }
+    .alertacount {
+        color: #fff !important;
+        background-color: #337ab7 !important;
+        border-color: #337ab7 !important;
+        margin-left: -34px;
+        margin-right: -34px;
+        margin-bottom: -15px;
+        margin-top: -25px;
+    }
+    .flexacount {
+        margin-bottom: -15px;
+        margin-top: 10px;
+    }
+      .inscri-header {
+        background-color: #0088cc;
+        border-bottom-color: #0088cc;
+        font-size: 24px;
+        line-height: 1.5;
+        position: relative;
+        font-size: 20px;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+        color: white;
+        padding: 5px;
+        border-bottom: 1px solid;
+        cursor: pointer;
+    }
+    .imginsc {
+        margin-top: -20px;
+        margin-bottom: 13px;
+    }
+    #insctext {
+        margin-top: -20px;
+        margin-bottom: 5px;
+    }
+    #insctext h3 {
+        color: #0088cc;
+        font-weight: bold;
+    }
+    #insctext h4 {
+        color: #0088cc;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    #btninscri {
+        font-weight: bold;
+        background: #ed9c28;
+    }
+     #loading-form-inscription {
+        display: none;
+        font-size: 13px;
+    }
+         #test {
+        animation: Test 3s infinite alternate;
+    }
+
+
+
+    @keyframes Test {
+        0% {
+            opacity: 1;
+        }
+
+        50% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+    .msg {
+        display: none;
+    }
+
+    .errorr {
+        color: red;
+    }
+
+    .success {
+        color: green;
+    }
+    .page {
+        display: none;
+    }
+
+    .active {
+        display: inherit;
+    }
+    #fainscri {
+        display: none;
+        font-size: 13px;
+    }
+    .alertinscri {
+        color: #fff !important;
+        background-color: #337ab7 !important;
+        border-color: #337ab7 !important;
+        margin-left: -34px;
+        margin-right: -34px;
+        margin-bottom: -15px;
+    }
+    .btninscrip {
+        width: 100%;
+    }
+    #fa-form-inscription{
+ display: none;
+        font-size: 13px;
+    }
+    .btnoffre{
+        font-weight: bold; background: #ed9c28;
+    }

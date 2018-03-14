@@ -115,25 +115,61 @@ function searchData(navbarSearch) {
                 dataType: 'json',
                 success: function (response) {
                     navbarSearch.find("ul").remove();
-                    var html = "<ul class='dropdown-menu' role='menu' aria-labelledby='query' style='width:380px; display:block; height: 250px;background-color:#ebebeb'>";
+                    var html = "";
+                    html = html + "<ul class='dropdown-menu' role='menu' aria-labelledby='query' style='width:350px; display:block; height: auto;background-color:#ebebeb'>";
+
+                    html = html + "  <div class='tabs tabs-bottom tabs-center tabs-simple' style='margin: 0 0 -10px 0;'>";
+                    html = html + " <ul class='nav nav-tabs'>";
+
+                    html = html + " <li id='liTraining' class='active'style='margin-bottom:0px;'>";
+                    html = html + " <a href='#Training' id='home-tab' role='tab' data-toggle='tab' aria-controls='home' aria-expanded='true'style='padding: 5px 30px;'>";
+                    html = html + "  <span class='text'>Formations (" + response[0].NbrTrainings + ")</span>";
+                    html = html + "</a>";
+                    html = html + " </li>";
+                    html = html + " <li id='liTrainer' style='margin-bottom:0px;'>";
+                    html = html + "<a href='#Trainer' role='tab' id='profile-tab' data-toggle='tab' aria-controls='profile' aria-expanded='false'style='padding: 5px 30px;'>";
+                    html = html + " <span class='text'>Formateurs (" + response[0].NbrTrainer + ")</span>";
+                    html = html + " </a>";
+                    html = html + "</li>";
+                    html = html + "  </ul>";
+                    html = html + "</div>";
+                    html = html + " <div id='myTabContent' class='tab-content' style='background-color:#ebebeb;padding:0'>";
+                    html = html + " <div role='tabpanel' class='tab-pane fade active in'id='Training' aria-labelledby='home-tab'>";
+                    html = html + "<ul style='background-color:#ebebeb;text-align: left;list-style: none;padding: 5px 0;margin: 2px 0 0;width:350px; display:block; height: auto;max-height:300px' class='dropdown-menu-serach'>";
                     for (var i = 0; i < response.length; i++) {
-                        html = html + "<li><a class='result' href='" + response[i].Url + "' ><img src='/Images/nucleo-icon-2.svg' style='width:20px'>  " + response[i].Text + "</a></li>";
-                        //html = html + "<li>" +
-                       //     "<table>"+
-                       //     "<tr>"+
-                       //     "<td><img src='/Images/nucleo-icon-2.svg' style='padding-right:20px;'/></td>" +
-                       //      "<td><a  style='' href='" + response[i].Url + "' >" +
-                       //               "<h3 style='color:#222;margin: 0 !important; padding: 0 !important; border: 0 !important; font-size: 100% !important; font: inherit !important; vertical-align: baseline !important; font-weight:bold !important'>" + response[i].Text + "</h3>"+
-                       // //"<p style='margin: 0 !important; padding: 0 !important; border: 0 !important; font-size: 100% !important; font: inherit !important; vertical-align: baseline !important;color: #333;'></p>
-                       //"</a></li></td>"
-                       //     +"</li>";
+                         if (response[i].Type == "Training")
+                         {
+                         html = html + "<li><a class='result' href='" + response[i].Url + "' ><img src='/Images/nucleo-icon-2.svg' style='width:20px'>  " + response[i].Text + "</a></li>";
+                         }
+                     }                
+                    html = html + "</ul>" ;        
+                    html = html + "</div>";
+
+                    html = html + "<div role='tabpanel' class='tab-pane fade' id='Trainer' aria-labelledby='profile-tab'>";
+                    html = html + "<ul style='background-color:#ebebeb;text-align: left;list-style: none;padding: 5px 0;margin: 2px 0 0;width:350px; display:block; height: auto;max-height:300px' class='dropdown-menu-serach'>";
+                    for (var i = 0; i < response.length; i++) {
+                        if(response[i].Type == "Trainer")
+                        {
+                            html = html + "<li><a class='result' href='" + response[i].Url + "' ><img src='" + response[i].pic + "' style='width:20px'>  " + response[i].Text + "</a></li>";
+                        }
                     }
                     html = html + "</ul>";
+                    html = html + "</div>";
+                    html = html + "</div>";
+
+                  
+                    html = html + "</ul>";
+                    html =html+ "";
+
                     navbarSearch.append(html);
-                    navbarSearch.find(".dropdown-menu").mCustomScrollbar({
+
+                    navbarSearch.find(".dropdown-menu-serach").mCustomScrollbar({
                         axis: "y"
                     });
+                    $(".mCSB_scrollTools").css("left","0");
+                    $(".mCSB_scrollTools").css("right", "auto");
                     searchIcon.attr('class', "fa fa-search");
+                  
                 }, error: function (error) {
                     searchIcon.attr('class', "fa fa-search");
                 }

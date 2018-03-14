@@ -96,13 +96,13 @@
 
     @-moz-document url-prefix() {
         .social-container {
-            top: 17% !important;
+            top: 123px!important;
         }
     }
 }
 
 .social-container {
-    top: 16%;
+    top: 123px;
     position: fixed;
     text-align: center;
     /*max-width: 60px;*/
