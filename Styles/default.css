@@ -4785,3 +4785,24 @@ html.boxed .body {
         display: none;
     }
 }
+@media only screen and (max-width: 750px) {
+        .respContrat {
+            margin-top: 20px;
+        }
+           #addoverflowContrat {
+        overflow: auto !important;
+    }
+           #addoverflow {
+            overflow: auto !important;
+        }
+    }
+   .modalQuestionnaire {
+        margin-top: 100px;
+    }
+   @media only screen and (max-width: 479px) {
+
+
+        #tdtable {
+            display: block !important;
+        }
+    }

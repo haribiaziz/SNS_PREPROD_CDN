@@ -443,3 +443,31 @@
     color:rgba(255,255,255,0.5)!important;
     text-decoration:none!important;
 }
+@media only screen and (max-width: 479px) {
+
+        .responRecomm {
+            margin-top: -35px;
+        }
+    }
+    .textplayer {
+        margin-top: 150px;
+    }
+        .textplayer label {
+            font-size: 18px;
+            color: #c88931;
+            padding: 30px;
+            line-height: 1.8;
+        }
+    .btnplayer {
+        width: auto;
+    }
+    .txtrecomended {
+        margin-top: 90px;
+    }
+        .txtrecomended label {
+            font-size: 18px;
+            color: #c88931;
+        }
+    #recomendedplayer {
+        margin-top: 10px !important;
+    }

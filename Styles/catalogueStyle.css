@@ -1,0 +1,49 @@
+﻿@media only screen and (max-width: 1200px) {
+    .products-grid li {
+        width: auto !important;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .categStyle {
+        margin-left: -100px !important;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    .categStyle {
+        margin-left: 25px !important;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    #categ {
+        margin-left: -10px !important;
+    }
+
+    .label {
+        border-radius: 0.25em !important;
+        display: inline;
+        font-size: 75%;
+        line-height: 1;
+        padding: 0.2em 0.6em 0.3em;
+        text-align: center;
+        vertical-align: baseline;
+        white-space: nowrap;
+    }
+
+    .categStyle #dropdownMenuButton {
+        margin-left: -10px !important;
+    }
+
+    #respProp {
+        float: left !important;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .divFiltreTri {
+        float: none !important;
+        margin-right: 60% !important;
+    }
+}
