@@ -8807,3 +8807,58 @@ html .panel-group-bleu .panel-heading {
         float: left;
         padding-bottom: 5px;
     }
+      #pacckages .mCSB_draggerRail {
+        margin-left: 20px;
+    }
+    #pacckages .mCSB_draggerContainer {
+        left: 22px !important;
+    }
+    #pacckages .test {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: 100%;
+    }
+        #panierPai .tabs-tarif li i {
+            display: none;
+        }
+
+        #panierPai .tabs-tarif li.active i {
+            display: block;
+            color: #0088CC;
+            display: inline-block;
+            font-size: 28px;
+        }
+    @media (min-width: 1200px) {
+
+        #pacckages .thumb-info img {
+            min-height: 178px !important;
+        }
+    }
+    @media only screen and (max-width: 479px) {
+        #editPack {
+            padding-top:0px;
+        }
+    }
+       .image:hover {
+        -webkit-transform: scale(1.25); /* Safari and Chrome */
+        -moz-transform: scale(1.25); /* Firefox */
+        -ms-transform: scale(1.25); /* IE 9 */
+        -o-transform: scale(1.25); /* Opera */
+        transform: scale(1.25);
+    }
+        #modalUpload input[type="file"] {
+        position: absolute;
+        z-index: 2;
+        top: 0;
+        left: 0;
+        filter: alpha(opacity=0);
+        -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=0)';
+        opacity: 0;
+        background-color: transparent;
+        color: transparent;
+    }
+          #smaller-input .smaller-input {
+        width: 80% !important;
+        margin: 0px auto 15px auto;
+    }

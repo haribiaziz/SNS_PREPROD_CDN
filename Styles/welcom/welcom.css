@@ -5536,3 +5536,30 @@ width:325px !important
         height: 149px !important;
     }
 }
+ #processus  .image {
+        width: 100%;
+        height: 100%;
+    }
+
+      #processus   .image img {
+            -webkit-transition: all 1s ease; /* Safari and Chrome */
+            -moz-transition: all 1s ease; /* Firefox */
+            -o-transition: all 1s ease; /* IE 9 */
+            -ms-transition: all 1s ease; /* Opera */
+            transition: all 1s ease;
+        }
+
+       #processus  .image:hover img {
+            -webkit-transform: scale(1.25); /* Safari and Chrome */
+            -moz-transform: scale(1.25); /* Firefox */
+            -ms-transform: scale(1.25); /* IE 9 */
+            -o-transform: scale(1.25); /* Opera */
+            transform: scale(1.25);
+        }
+
+    #processus .imageC:hover img {
+        -webkit-transform: scale(1.1); /* Safari and Chrome */
+        -moz-transform: scale(1.1); /* Firefox */
+        -ms-transform: scale(1.1); /* IE 9 */
+        -o-transform: scale(1.1); /* Opera */
+        transform: scale(1.1);

@@ -22,6 +22,7 @@
 .imageupload .btn-file {
   overflow: hidden;
   position: relative;
+  padding:2px;
 }
 .imageupload .btn-file input[type="file"] {
   cursor: inherit;
