@@ -8836,6 +8836,10 @@ html .panel-group-bleu .panel-heading {
         }
     }
     @media only screen and (max-width: 479px) {
+           .imgsizePays {
+            width: 200px !important;
+            margin-left: 20%;
+        }
         #editPack {
             padding-top:0px;
         }
