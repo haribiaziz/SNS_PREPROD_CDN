@@ -2492,7 +2492,7 @@ ul.sitemap.list ul {
 /* Responsive */
 @media (max-width: 479px) {
     .respon-header {
-     margin-top: -53px;
+        margin-top: -53px;
     }
 }
 
@@ -8758,111 +8758,129 @@ html .panel-group-bleu .panel-heading {
     }
 }
 
-  .ActifAbn {
-        background: transparent none repeat scroll 0 0;
-        color: #0088cc;
-        font-weight: 600;
-        font-size: 16px;
-        text-shadow: none;
-        border: 4px solid #0088cc;
-        padding-left: 25px;
-        padding-right: 25px;
-        border-radius: 10px;
-    }
-    .ExpireAbn {
-        background: transparent none repeat scroll 0 0;
-        color: red;
-        text-shadow: none;
-        font-weight: 600;
-        font-size: 16px;
-        border: 4px solid red;
-        padding-left: 25px;
-        padding-right: 25px;
-        border-radius: 10px;
-    }
-    .Abnpad {
-        margin-top: 15px;
-    }
-    .abnh {
-        overflow: hidden;
-        text-overflow: ellipsis;
-        white-space: normal;
-        font-size: 13px;
-        line-height: 1.4;
-        text-align: center;
-        text-transform: none;
-        margin-top: 2px;
-    }
-    .abna {
-        color: #000;
-        font-weight: 600;
-        letter-spacing: 0;
-    }
-    .abni {
-        color: #ed9c28;
-        font-weight: 600;
-        margin-right: 4px;
-    }
-    .abndiv {
-        float: left;
-        padding-bottom: 5px;
-    }
-      #pacckages .mCSB_draggerRail {
-        margin-left: 20px;
-    }
-    #pacckages .mCSB_draggerContainer {
-        left: 22px !important;
-    }
-    #pacckages .test {
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        width: 100%;
-    }
-        #panierPai .tabs-tarif li i {
-            display: none;
-        }
+.ActifAbn {
+    background: transparent none repeat scroll 0 0;
+    color: #0088cc;
+    font-weight: 600;
+    font-size: 16px;
+    text-shadow: none;
+    border: 4px solid #0088cc;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 10px;
+}
 
-        #panierPai .tabs-tarif li.active i {
-            display: block;
-            color: #0088CC;
-            display: inline-block;
-            font-size: 28px;
-        }
-    @media (min-width: 1200px) {
+.ExpireAbn {
+    background: transparent none repeat scroll 0 0;
+    color: red;
+    text-shadow: none;
+    font-weight: 600;
+    font-size: 16px;
+    border: 4px solid red;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 10px;
+}
 
-        #pacckages .thumb-info img {
-            min-height: 178px !important;
-        }
+.Abnpad {
+    margin-top: 15px;
+}
+
+.abnh {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    font-size: 13px;
+    line-height: 1.4;
+    text-align: center;
+    text-transform: none;
+    margin-top: 2px;
+}
+
+.abna {
+    color: #000;
+    font-weight: 600;
+    letter-spacing: 0;
+}
+
+.abni {
+    color: #ed9c28;
+    font-weight: 600;
+    margin-right: 4px;
+}
+
+.abndiv {
+    float: left;
+    padding-bottom: 5px;
+}
+
+#pacckages .mCSB_draggerRail {
+    margin-left: 20px;
+}
+
+#pacckages .mCSB_draggerContainer {
+    left: 22px !important;
+}
+
+#pacckages .test {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+}
+
+#panierPai .tabs-tarif li i {
+    display: none;
+}
+
+#panierPai .tabs-tarif li.active i {
+    display: block;
+    color: #0088CC;
+    display: inline-block;
+    font-size: 28px;
+}
+
+@media (min-width: 1200px) {
+
+    #pacckages .thumb-info img {
+        min-height: 178px !important;
     }
-    @media only screen and (max-width: 479px) {
-           .imgsizePays {
-            width: 200px !important;
-            margin-left: 20%;
-        }
-        #editPack {
-            padding-top:0px;
-        }
+}
+
+@media only screen and (max-width: 479px) {
+    .imgsizePays {
+        width: 200px !important;
+        margin-left: 20%;
     }
-       .image:hover {
-        -webkit-transform: scale(1.25); /* Safari and Chrome */
-        -moz-transform: scale(1.25); /* Firefox */
-        -ms-transform: scale(1.25); /* IE 9 */
-        -o-transform: scale(1.25); /* Opera */
-        transform: scale(1.25);
+
+    #editPack {
+        padding-top: 0px;
     }
-        #modalUpload input[type="file"] {
-        position: absolute;
-        z-index: 2;
-        top: 0;
-        left: 0;
-        filter: alpha(opacity=0);
-        -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=0)';
-        opacity: 0;
-        background-color: transparent;
-        color: transparent;
-    }
-          #smaller-input .smaller-input {
-        width: 80% !important;
-        margin: 0px auto 15px auto;
-    }
+}
+
+.image:hover {
+    -webkit-transform: scale(1.25); /* Safari and Chrome */
+    -moz-transform: scale(1.25); /* Firefox */
+    -ms-transform: scale(1.25); /* IE 9 */
+    -o-transform: scale(1.25); /* Opera */
+    transform: scale(1.25);
+}
+
+#modalUpload input[type="file"] {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    filter: alpha(opacity=0);
+    -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=0)';
+    opacity: 0;
+    background-color: transparent;
+    color: transparent;
+}
+
+#smaller-input .smaller-input {
+    width: 80% !important;
+    margin: 0px auto 15px auto;
+}
+
+
