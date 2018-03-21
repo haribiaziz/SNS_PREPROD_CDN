@@ -2494,6 +2494,7 @@ ul.sitemap.list ul {
     .respon-header {
         margin-top: -53px;
     }
+    
 }
 
 .owl-carousel-spaced {
@@ -2529,6 +2530,7 @@ ul.sitemap.list ul {
     .carousel-areas .owl-carousel .owl-nav {
         display: none;
     }
+    
 }
 /* Video */
 section.video {
@@ -3270,6 +3272,7 @@ html[xmlns] .clearfix {
 }
 
 @media (max-width: 767px) {
+    
     .sample-item .sample-item-image-wrapper, .sample-item .owl-carousel {
         height: 63.4vw;
     }
