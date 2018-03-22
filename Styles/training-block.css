@@ -66,6 +66,9 @@
 .margin-detail {
     margin-left: 50px !important;
 }
+.marginTopComigSoon{
+    margin-top: -157px !important;
+}
 
 .imageTop {
     margin-top: 0px !important;
@@ -78,7 +81,7 @@
 }
 
 #categTrng .owl-dots {
-    margin-top: -6px;
+    margin-top: -6px !important;
 }
 
 #categTrng .owl-next {

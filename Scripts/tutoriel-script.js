@@ -83,10 +83,6 @@ function OnSuccessAddCommentaire(data) {
     if (data.isAdded == "true") {
         $().toastmessage('showSuccessToast', "Commentaire ajout&eacute; avec succ&egrave;s.<br/>En attente de validation par l'admin.");
         $("#CommentairesTrainings").html(data.html);
-        $("#CommentairesTrainings input.rating").rating()
-        $("[name=commentaire]").val("");
-        location.reload();
-
     }
     else {
         $().toastmessage('showErrorToast', "Probl&egrave;me lors de l&acute;ajout du commentaire.");
