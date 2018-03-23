@@ -389,3 +389,23 @@
         margin-top: 20px;
     }
 }
+@media (max-width: 600px){
+
+.jw-title-primary {
+    margin-top: 10% !important;
+    margin-left: 15% !important;
+}
+}
+@media (max-width: 400px){
+.jw-title-primary {
+    margin-top: 0% !important;
+    margin-left: 0% !important;
+}
+}
+@media (min-width: 600px) {
+    .jw-title-primary {
+        margin-top: 15% !important;
+        margin-left: 20% !important;
+    }
+}
+    

@@ -116,7 +116,7 @@ function searchData(navbarSearch) {
                 success: function (response) {
                     navbarSearch.find("ul").remove();
                     var html = "";
-                    html = html + "<ul class='dropdown-menu' role='menu' aria-labelledby='query' style='width:350px; display:block; height: auto;background-color:#ebebeb'>";
+                    html = html + "<ul class='dropdown-menu' role='menu' aria-labelledby='query' style='width:350px; display:block; height: auto;background-color:#ebebeb' id='searchList'>";
 
                     html = html + "  <div class='tabs tabs-bottom tabs-center tabs-simple' style='margin: 0 0 -10px 0;'>";
                     html = html + " <ul class='nav nav-tabs'>";
@@ -166,8 +166,8 @@ function searchData(navbarSearch) {
                     navbarSearch.find(".dropdown-menu-serach").mCustomScrollbar({
                         axis: "y"
                     });
-                    $(".mCSB_scrollTools").css("left","0");
-                    $(".mCSB_scrollTools").css("right", "auto");
+                    //$(".mCSB_scrollTools").css("left","0");
+                    //$(".mCSB_scrollTools").css("right", "auto");
                     searchIcon.attr('class', "fa fa-search");
                   
                 }, error: function (error) {
