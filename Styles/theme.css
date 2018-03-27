@@ -5271,7 +5271,6 @@ html.boxed .main {
 @media(max-width: 700px) {
     .logotop {
         font-family: cursive !important;
-        margin-top: 13px !important;
         margin-left: 27% !important;
         margin-bottom: -43px;
     }
@@ -5283,7 +5282,6 @@ html.boxed .main {
 @media(max-width: 480px) {
     .logotop {
         font-family: cursive !important;
-        margin-top: 13px !important;
         margin-left: 20% !important;
         margin-bottom: -43px;
     }
@@ -5292,12 +5290,12 @@ html.boxed .main {
         display: none;
     }
 }
-@media(max-width: 350px) {
+@media(max-width: 550px) {
 
 
     .logotop {
+        top:71px !important;
         font-family: cursive !important;
-        margin-top: -27px;
         position: absolute !important;
         margin-left: 13% !important;
         left: -20px !important;
@@ -5308,7 +5306,6 @@ html.boxed .main {
 
     .logotop {
         font-family: cursive !important;
-        margin-top: -27px;
         position: absolute !important;
         left: -20px !important;
     }

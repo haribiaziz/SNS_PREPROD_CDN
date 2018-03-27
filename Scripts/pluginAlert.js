@@ -190,6 +190,6 @@ function onSuccessSendmail(data) {
         window.location.href = "/inscription/inscriptioncompleteNews";
     }
     else {
-        document.getElementById("error").style.display = "inline";
+        $("#error").css("display", "inline");
     }
 }

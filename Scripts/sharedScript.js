@@ -113,7 +113,8 @@ function searchData(navbarSearch) {
                 data: { "term": query },
                 type: 'GET',
                 dataType: 'json',
-                success: function (response) {
+                success: function (response) {                    
+                    
                     navbarSearch.find("ul").remove();
                     var html = "";
                     html = html + "<ul class='dropdown-menu' role='menu' aria-labelledby='query' style='width:350px; display:block; height: auto;background-color:#ebebeb' id='searchList'>";

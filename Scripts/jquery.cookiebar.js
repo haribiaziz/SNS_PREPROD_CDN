@@ -44,7 +44,8 @@
             element: 'body', //Element to append/prepend cookieBar to. Remember "." for class or "#" for id.
             append: false, //Set to true for cookieBar HTML to be placed at base of website. Actual position may change according to CSS
             fixed: true, //Set to true to add the class "fixed" to the cookie bar. Default CSS should fix the position
-            bottom: true, //Force CSS when fixed, so bar appears at bottom of website
+            bottom: false, //Force CSS when fixed, so bar appears at bottom of website
+
             zindex: '', //Can be set in CSS, although some may prefer to set here
             domain: String(window.location.hostname), //Location of privacy policy
             referrer: String(document.referrer) //Where visitor has come from
@@ -132,7 +133,9 @@
             }
 
             //Displays the cookie bar if arguments met
-            if (options.forceShow || cookieValue == 'enabled' || cookieValue == '') {
+            if (options.forceShow || cookieValue == 'enabled' || cookieValue == '') {            
+                $(".menuHaut").css("margin-top", "37px");
+         
                 if (options.append) {
                     $(options.element).append('<div id="cookie-bar"' + fixed + zindex + '><p>' + message + acceptButton + declineButton + policyButton + '</p></div>');
                 } else {
@@ -151,6 +154,8 @@
                     $('#cookie-bar').hide(0, function () { $('#cookie-bar').remove(); });
                 }
                 $(document).unbind('click', anyClick);
+                $(".menuHaut").css("margin-top", "0px")
+
             };
             var cookieAccept = function () {
                 document.cookie = cookieEntry.replace('{value}', 'accepted');
